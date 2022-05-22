@@ -1,0 +1,30 @@
+*{
+    margin : 0;
+}
+.header{
+    background-color: #adc0d9;
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+    margin-top: 18px;
+    margin-left: 18px;
+    margin-right: 18px;
+    width: 100px;
+    object-fit: contain;
+
+}
+.header__searchIcon{
+    background-color: burlywood;
+    padding: 4px;
+}
+.header__search{
+    display: flex;
+    flex: 1;
+    
+}
+.header__searchInput{
+    height: 30px;
+    border: none;
+    width: 100%;
+}
