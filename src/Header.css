@@ -2,9 +2,12 @@
     margin : 0;
 }
 .header{
-    background-color: #adc0d9;
+    background-color: #0fd1d1;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 .header__logo{
     margin-top: 18px;
@@ -27,4 +30,42 @@
     height: 30px;
     border: none;
     width: 100%;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__link{
+    color:rgb(12, 12, 12);
+    text-decoration: none;
+}
+.header__options{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header__options1{
+    font-size: 13px;
+}
+.header__options2{
+    font-size: 17px;
+    font-weight: 800;
+}
+.header__optionBasket{
+    color: black;
+    align-items: center;
+}
+.header__optionNumber{
+    color: black;
+}
+.header__optionBasket{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.header__basketCount{
+    margin-left: 5px;
+    margin-right: 10px;
+    text-decoration-line: none;
 }
